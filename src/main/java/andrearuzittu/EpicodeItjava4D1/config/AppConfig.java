@@ -13,15 +13,14 @@ public class AppConfig {
 		return new MenuService();
 	}
 
-	public class GreetingBean {
-		@Bean
-		String getSaluto() {
-			return "Hi,how are you?!";
-		}
+	@Bean
+	String getSaluto() {
+		return "Hi,how are you?!";
+	}
 
-		@Bean
-		String getRisposta() {
-			return "T'appost!";
-		}
+	@Bean
+	String getRisposta() {
+		return "T'appost!";
+
 	}
 }
