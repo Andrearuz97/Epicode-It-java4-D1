@@ -8,7 +8,6 @@ import andrearuzittu.EpicodeItjava4D1.service.MenuService;
 @Configuration
 public class AppConfig {
 
-	// Metodo per creare un bean per il MenuService
 	@Bean
 	public MenuService menuService() {
 		return new MenuService();
